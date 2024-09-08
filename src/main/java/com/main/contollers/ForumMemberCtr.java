@@ -24,7 +24,7 @@ import com.main.serviceImp.ImageUploader;
 
 @RestController
 @RequestMapping("/fmembers")
-@CrossOrigin("http://localhost:5173")
+@CrossOrigin("https://tele-era.netlify.app")
 public class ForumMemberCtr {
 	
 	@Autowired

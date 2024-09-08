@@ -27,7 +27,7 @@ import com.main.serviceImp.ImageUploader;
 
 @RestController
 @RequestMapping("/completedevent")
-@CrossOrigin("http://localhost:5173")
+@CrossOrigin("https://tele-era.netlify.app")
 public class CompletedEventCtr {
 	
 	@Autowired

@@ -21,7 +21,7 @@ import com.main.serviceImp.UpcommingEventServiceImpl;
 
 @RestController
 @RequestMapping("/upcommingEvents")
-@CrossOrigin("http://localhost:5173")
+@CrossOrigin("https://tele-era.netlify.app")
 public class UpcommingEventCtr {
 	
 	@Autowired
